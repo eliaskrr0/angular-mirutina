@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./foo.component.css']
 })
 export class FooComponent {
-  titulo: string = '© 2021 Copyright';
+  titulo: string = '© 2023 Copyright';
 }

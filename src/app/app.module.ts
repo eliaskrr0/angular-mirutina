@@ -6,7 +6,8 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { NavComponent } from './components/nav/nav.component';
 import { FooComponent } from './components/foo/foo.component';
-import { InicioComponent } from './components/inicio/inicio.component';
+import { CalendarioComponent } from './components/calendario/calendario.component';
+import { NotasComponent } from './components/notas/notas.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { InicioComponent } from './components/inicio/inicio.component';
     HeaderComponent,
     NavComponent,
     FooComponent,
-    InicioComponent
+    CalendarioComponent,
+    NotasComponent
   ],
   imports: [
     BrowserModule,
